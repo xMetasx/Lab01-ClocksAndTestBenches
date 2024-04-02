@@ -1,5 +1,5 @@
 [begin] (  Application Menu  )
-    [exec] (Digital) { /workspaces/Lab01-ClocksAndTestBenches/Digital/Digital.sh } <>
+    [exec] (Digital) {/usr/local/Digital/Digital.sh } <>
     [exec] (GTK Wave) { gtkwave } <>
     [exec] (File Manager) { nautilus ~ } <>
     [exec] (Text Editor) { mousepad } <>
