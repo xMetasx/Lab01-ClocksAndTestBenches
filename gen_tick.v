@@ -1,9 +1,9 @@
 //=========================================================================
 // Name & Email must be EXACTLY as in Gradescope roster!
-// Name: 
-// Email: 
+// Name: Johncarlo Jalomo
+// Email: jjalo004@ucr.edu
 // 
-// Assignment name: 
+// Assignment name: Lab 1
 // Lab section: 
 // TA: 
 // 
@@ -12,6 +12,12 @@
 // (apart from what was provided in the starter file).
 //
 //=========================================================================
+
+//===================================================
+// <= non blocking
+// cnt <= cnt + 1
+// tick_cnt = src / 2 / tick_frequency
+//===================================================
 
 module gen_tick # ( parameter SRC_FREQ = 5000, parameter TICK_FREQ = 1) (
     input src_clk,
