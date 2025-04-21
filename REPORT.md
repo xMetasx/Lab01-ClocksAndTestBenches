@@ -7,4 +7,4 @@ In this test case, the source clock frequency remained at 100 Hz while the outpu
 Test Case 3 (tick_100_50)
 In this test case, the source clock frequency stayed at 100 Hz, but the output tick frequency was increased to 50 Hz. This tested the system's behavior at a high tick frequency. During the simulation, the test confirmed that there were 500 transitions over 1000 clock cycles, with the tick signal staying high for about 50% of the time (500 high cycles). This showed that the gen_tick module was able to handle high-frequency ticking accurately and maintain a stable duty cycle.
 
-![waveform](C:/Users/Meta_/OneDrive/Pictures/Screenshots/Screenshot 2025-04-20 222145.png)
+![waveform](<C:/Users/Meta_/OneDrive/Pictures/Screenshots/Screenshot 2025-04-20 222145.png>)
